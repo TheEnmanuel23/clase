@@ -5,6 +5,16 @@ const templateDetalle = (persona) => {
           <div class="card">
             <div class="card-content">
               <span class="card-title">${persona.nombre}</span>
+              ${
+                persona.avatar
+                ?
+                ` 
+                  <figure>
+                    <img src=${persona.avatar}/>
+                  </figure>`
+                : ''
+              }
+              
               <p><strong>Id:</strong> ${persona.id}</p>
               <p><strong>Nombre completo:</strong> ${persona.nombre} ${persona.apellido}</p>
               <p><strong>Edad:</strong> ${persona.edad}</p>
