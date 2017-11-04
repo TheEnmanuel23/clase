@@ -5,6 +5,7 @@ var menu = `
 		<ul>
 			<li><a href="/lista">Lista</a></li>
 			<li><a href="/login">Login</a></li>
+			<li><a href="/guardar">Guardar</a></li>
 		</ul>
 	</nav>
 `
